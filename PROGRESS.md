@@ -5,15 +5,15 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 ## Week 1 (tag week-1 by Fri 23 Oct)
 - [ ] Repo created from the Examate template and registered on the form
 - [ ] README top section filled from my project card
-- [ ] /health runs locally
+- [x] /health runs locally
 - [ ] docs/QUESTIONS.md: 10 real questions
 - [x] 50+ pages collected, DATASET.md filled, sample in data/sample/
 - [ ] Tag week-1 pushed
 
 ## Week 2 (tag week-2 by Fri 30 Oct)
-- [ ] POST /chat calls an LLM and returns structured JSON
-- [ ] Streaming, timeouts, retry and a fallback model
-- [ ] Cost log + GET /usage
+- [x] POST /chat calls an LLM and returns structured JSON
+- [x] Streaming, timeouts, retry and a fallback model
+- [x] Cost log + GET /usage
 - [ ] Docker Compose (API + Postgres/pgvector) runs
 - [ ] CI green, live link in README
 - [ ] Tag week-2 pushed
@@ -28,4 +28,5 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 ## Daily log
 | Date | What I did today | Commit |
 |---|---|---|
-| | | |
+| 02 Nov 2026 | SEBI LODR data collection (636 pages, manifest, sample) | 0ed7efa |
+| 03 Nov 2026 | Streaming /chat, safe retries, fallback model, cost log, GET /usage | pending |
