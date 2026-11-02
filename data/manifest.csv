@@ -1,2 +1,5 @@
 file,source_url,downloaded_on,bytes,sha256
 data/raw\index.html,https://www.sebi.gov.in/,2026-10-29,54571,98f48787325fed86
+data/raw\1780915347745.pdf,https://www.sebi.gov.in/sebi_data/attachdocs/jun-2026/1780915347745.pdf,2026-11-02,2010833,62626bd86a48184b
+data/raw\1769776024792.pdf,https://www.sebi.gov.in/sebi_data/attachdocs/jan-2026/1769776024792.pdf,2026-11-02,4304934,fa3b4360d2a86be6
+data/raw\1752233667904.pdf,https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1752233667904.pdf,2026-11-02,1575446,d0aed4fb1a5e5ef1

@@ -23,9 +23,10 @@ def allowed(url):
             rp.read()
         except Exception:
             rp = None # robots.txt unreachable: proceed carefully
-            robots[root] = rp
-            rp = robots[root]
-        return rp is None or rp.can_fetch(HEADERS["User-Agent"], url)
+        robots[root] = rp
+    rp = robots[root]
+    return rp is None or rp.can_fetch(HEADERS["User-Agent"], url)
+
     
 def name_for(url):
     name = os.path.basename(urlparse(url).path) or "index.html"

@@ -7,7 +7,7 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 - [ ] README top section filled from my project card
 - [ ] /health runs locally
 - [ ] docs/QUESTIONS.md: 10 real questions
-- [ ] 50+ pages collected, DATASET.md filled, sample in data/sample/
+- [x] 50+ pages collected, DATASET.md filled, sample in data/sample/
 - [ ] Tag week-1 pushed
 
 ## Week 2 (tag week-2 by Fri 30 Oct)
