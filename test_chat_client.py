@@ -7,7 +7,7 @@ request = {
             "content": "Explain what a vector database is in simple terms.",
         }
     ],
-    "model": "gemini-3.8-flash",
+    "model": "gemini-3.6-flash",
 }
 
 with httpx.stream(
