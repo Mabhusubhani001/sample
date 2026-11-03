@@ -14,7 +14,7 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 - [x] POST /chat calls an LLM and returns structured JSON
 - [x] Streaming, timeouts, retry and a fallback model
 - [x] Cost log + GET /usage
-- [ ] Docker Compose (API + Postgres/pgvector) runs
+- [x] Docker Compose (API + Postgres/pgvector) runs
 - [ ] CI green, live link in README
 - [ ] Tag week-2 pushed
 
@@ -29,4 +29,5 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 | Date | What I did today | Commit |
 |---|---|---|
 | 02 Nov 2026 | SEBI LODR data collection (636 pages, manifest, sample) | 0ed7efa |
-| 03 Nov 2026 | Streaming /chat, safe retries, fallback model, cost log, GET /usage | pending |
+| 03 Nov 2026 | Streaming /chat, safe retries, fallback model, cost log, GET /usage | 5564ace |
+| 03 Nov 2026 | Docker Compose (API + pgvector), /ready route, .dockerignore | pending |

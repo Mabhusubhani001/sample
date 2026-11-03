@@ -7,7 +7,7 @@ Usage:
 import argparse
 import re
 import time
-from urllib.parse import urljoin
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -79,7 +79,7 @@ def scrape_sebi_master_circulars(keyword_filter: str | None = None) -> list[tupl
             print(f"  -> PDF: {pdf_url}")
             results.append((title, date_str, pdf_url))
         else:
-            print(f"  -> No PDF found in iframe")
+            print("  -> No PDF found in iframe")
 
     return results
 
