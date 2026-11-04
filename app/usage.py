@@ -1,4 +1,5 @@
 """Added for Session 5: totals per day (UTC) from logs/cost.jsonl, for GET /usage."""
+
 import json
 from datetime import UTC, datetime
 from pathlib import Path
@@ -29,4 +30,3 @@ def usage_by_day(path: str) -> dict[str, dict]:
         d["output_tokens"] += r["output_tokens"]
         d["cost_usd"] = round(d["cost_usd"] + r["cost_usd"], 8)
     return days
-
