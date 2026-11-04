@@ -15,7 +15,7 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 - [x] Streaming, timeouts, retry and a fallback model
 - [x] Cost log + GET /usage
 - [x] Docker Compose (API + Postgres/pgvector) runs
-- [ ] CI green, live link in README
+- [x] CI green, live link in README
 - [ ] Tag week-2 pushed
 
 ## Week 3 (tag week-3 by Fri 6 Nov)
@@ -30,4 +30,5 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 |---|---|---|
 | 02 Nov 2026 | SEBI LODR data collection (636 pages, manifest, sample) | 0ed7efa |
 | 03 Nov 2026 | Streaming /chat, safe retries, fallback model, cost log, GET /usage | 5564ace |
-| 03 Nov 2026 | Docker Compose (API + pgvector), /ready route, .dockerignore | pending |
+| 03 Nov 2026 | Docker Compose (API + pgvector), /ready route, .dockerignore | 1dd3b61 |
+| 04 Nov 2026 | CI workflow (test + docker-smoke), pre-commit hooks, deployed to Render, live link in README | pending |

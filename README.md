@@ -1,4 +1,8 @@
-# <Your product name>
+# SEBI LODR Regulation Copilot
+
+[![CI](https://github.com/Mabhusubhani001/sample/actions/workflows/ci.yml/badge.svg)](https://github.com/Mabhusubhani001/sample/actions/workflows/ci.yml)
+
+**Live:** https://sebi-lodr-rag.onrender.com/health · first request after 15 idle minutes takes about a minute (free tier)
 
 > Fill this top section from your Examate project card on Day 1. Replace every line in angle brackets.
 
@@ -39,4 +43,4 @@ curl localhost:8000/ready
 ```
 
 ## Live link
-<Added in Week 2>
+https://sebi-lodr-rag.onrender.com/health
